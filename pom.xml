@@ -202,6 +202,10 @@ under the License.
   </ciManagement>
 
   <distributionManagement>
+  	<snapshotRepository>
+	  <id>cloud.archiva.snapshots</id>
+	  <url>http://archiva.cliff.cloudburrito.com:8080/archiva/repository/snapshots/</url>
+	</snapshotRepository>
     <site>
       <id>apache.website</id>
       <url>scm:svn:https://svn.apache.org/repos/infra/websites/production/maven/content/${maven.site.path}</url>
